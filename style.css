@@ -1,0 +1,64 @@
+html{
+  height: 100%;
+  background-image: url("https://images.pexels.com/photos/1070360/pexels-photo-1070360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+}
+
+#banner{
+  padding-top:22%;
+  font-family:'Titan One',cursive;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  color:#93700DB;
+}
+
+#heading{
+  height:100%;
+  font-family:'Montserrat',sans-serif;
+  display: flex;
+  justify-content: space-around;
+  color:#0066CC;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.navbar {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #9370DB;
+  font-family: 'Montserrat', sans-serif;
+}
+.navbar a:hover {
+  color:white;
+  background: #9370DB;
+}
+
+.project-container {
+  margin-top:20%;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content:space-between;
+}
+
+span{
+ background:#3000DB;
+ width:30%;
+ height:60%;
+ margin:2%;
+ padding:2%;
+ font-family:'Montserrat',sans-serif;
+color:white;
+align-items:center;
+}
